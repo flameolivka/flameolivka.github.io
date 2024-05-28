@@ -1,0 +1,77 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #111111;
+}
+
+.main-img{
+    width: 199px;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card {
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222222;
+    width: 250px;
+    height: 300px;
+    border-radius: 26px;
+
+}
+
+.card-img {
+    width: 98px;
+    height: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+}
+
+.card-title {
+    margin-left: 29px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.card-price{
+    display: inline-block;
+    margin-left: 29px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.card-spec{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 10px;
+    color: #898888;
+    font-weight: 300;
+}
+
+.card-description{
+    margin-left: 29px;
+    margin-top: 5px;
+    font-size: 10px;
+    color: #898888;
+    font-weight: 300;
+}
+
+.order{
+    width: 128px;
+    height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: 450;
+}
+
