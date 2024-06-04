@@ -4,14 +4,15 @@ body {
 }
 
 .main-img{
-    width: 199px;
-    height: 36px;
+    margin-top: 24px;
+    width: 187.5px;
+    height: 64px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-.card {
+#card_1, #card_2, #card_3, #card_4 {
     margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
@@ -64,7 +65,7 @@ body {
     font-weight: 300;
 }
 
-.order{
+button{
     width: 128px;
     height: 28px;
     margin-left: auto;
@@ -74,4 +75,37 @@ body {
     font-size: 14px;
     font-weight: 450;
 }
+
+#form {
+    margin-top: 48px;
+    display: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-text{
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 750;
+    color: #ffffff;
+}
+
+#user_name, #user_phone {
+    margin-top: 6px;
+    background-color: #222222;
+    color: white;
+    border-radius: 4px;
+    width: 256px;
+    height: 18px;
+    outline-style: revert;
+    outline-color: #0055B8;
+    border: none;
+}
+
+#send {
+    margin-top: 24px;
+}
+
+
 
